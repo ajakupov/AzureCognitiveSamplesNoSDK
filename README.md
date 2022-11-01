@@ -6,7 +6,7 @@ Some examples require creating environmant variables. To create a variable:
 Linux:
 ```
 export NAME=VALUE
-
+```
 
 Windows:
 ```
