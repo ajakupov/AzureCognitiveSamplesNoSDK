@@ -13,7 +13,7 @@ def get_voice():
         "X-Microsoft-OutputFormat": "audio-48khz-192kbitrate-mono-mp3"
     }
 
-    with open("./support/kalisafe.ssml") as file:
+    with open("./support/pitch.ssml") as file:
         ssml = file.readlines()
 
     ssml = " ".join(ssml)
