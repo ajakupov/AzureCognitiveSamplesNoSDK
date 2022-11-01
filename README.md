@@ -11,6 +11,7 @@ export NAME=VALUE
 Windows:
 ```
 $env:NAME = 'Value'
+```
 
 To run the solution on your environment:
 1. Install Python virtual environment
