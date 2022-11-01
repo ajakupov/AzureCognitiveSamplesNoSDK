@@ -21,11 +21,11 @@ pip install virtualenv
 2. Go to the project folder (where you have your README.md file)
 3. Create your virtual environment
 ```
-python3 -m venv bertvent
+python3 -m venv cognitenv
 ```
 4. Access to venv virtual environment
 ```
-source bertvent/bin/activate
+source cognitenv/bin/activate
 ```
 5. Install project dependencies
 ```
