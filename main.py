@@ -1,6 +1,6 @@
-from helpers.audio_helper import get_voice
-from helpers.translate_helper import translate_text
+from utils.image_operations import draw_countours, convert_to_sketch
 
 
 if __name__ == '__main__':
-    print(translate_text("Hello, world!"))
+    convert_to_sketch('photo.jpeg')
+    draw_countours("sketch.jpg")
