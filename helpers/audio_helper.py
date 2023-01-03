@@ -21,5 +21,5 @@ def get_voice():
 
     response = requests.post(url=url, data=ssml, headers=headers)
 
-    with open("output.mp3", "wb") as f:
+    with open("7.mp3", "wb") as f:
         f.write(response.content)

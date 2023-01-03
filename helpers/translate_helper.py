@@ -11,7 +11,7 @@ def translate_text(text):
     path = '/translate'
     params = {
         'api-version': '3.0',
-        'from': 'en',
+        'from': 'ru',
         'to': 'kk'
     }
     constructed_url = endpoint + path
