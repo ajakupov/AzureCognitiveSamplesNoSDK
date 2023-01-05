@@ -2,7 +2,7 @@ import os
 import requests
 
 
-def get_voice():
+def get_voice(filename):
     subscription_key = os.environ['SPEECH_KEY']
     region = os.environ['SPEECH_REGION']
 
@@ -21,5 +21,5 @@ def get_voice():
 
     response = requests.post(url=url, data=ssml, headers=headers)
 
-    with open("7.mp3", "wb") as f:
+    with open("{}.mp3".format(filename), "wb") as f:
         f.write(response.content)
